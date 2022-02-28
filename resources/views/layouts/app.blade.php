@@ -12,10 +12,10 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link href="{{asset('worldreligionspublic/bootstrap513/css/bootstrap.min.css')}}" rel="stylesheet">
-        <script src="{{asset('worldreligionspublic/popper/popper.min.js')}}"></script>
-        <script src="{{asset('worldreligionspublic/bootstrap513/js/bootstrap.min.js')}}" ></script>
-        <script src="{{asset('worldreligionspublic/bootstrap513/js/bootstrap.bundle.min.js')}}"></script>
+        <link href="{{asset('bootstrap513/css/bootstrap.min.css')}}" rel="stylesheet">
+        <script src="{{asset('popper/popper.min.js')}}"></script>
+        <script src="{{asset('bootstrap513/js/bootstrap.min.js')}}" ></script>
+        <script src="{{asset('bootstrap513/js/bootstrap.bundle.min.js')}}"></script>
         <!-- Scripts -->
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
