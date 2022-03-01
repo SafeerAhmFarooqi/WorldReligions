@@ -17,6 +17,7 @@
         <script src="{{asset('bootstrap513/js/bootstrap.min.js')}}" ></script>
         <script src="{{asset('bootstrap513/js/bootstrap.bundle.min.js')}}"></script>
         <!-- Scripts -->
+        {{--Safeer Ahmed Farooqi--}}
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
     <body>
