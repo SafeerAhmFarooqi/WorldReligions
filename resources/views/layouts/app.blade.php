@@ -12,16 +12,13 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-        <link href="{{asset('bootstrap513/css/bootstrap.min.css')}}" rel="stylesheet">
-        <script src="{{asset('popper/popper.min.js')}}"></script>
-        <script src="{{asset('bootstrap513/js/bootstrap.min.js')}}" ></script>
-        <script src="{{asset('bootstrap513/js/bootstrap.bundle.min.js')}}"></script>
+
         <!-- Scripts -->
-        {{--Safeer Ahmed Farooqi--}}
         <script src="{{ asset('js/app.js') }}" defer></script>
     </head>
-    <body>
-            {{-- @include('layouts.navigation') --}}
+    <body class="font-sans antialiased">
+        <div class="min-h-screen bg-gray-100">
+            @include('layouts.navigation')
 
             <!-- Page Heading -->
             <header class="bg-white shadow">
@@ -34,5 +31,6 @@
             <main>
                 {{ $slot }}
             </main>
+        </div>
     </body>
 </html>
